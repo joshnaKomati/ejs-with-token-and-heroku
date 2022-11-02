@@ -1,6 +1,6 @@
 const express=require("express")
 const app=express()
-const port=process.env.PORT || 4040
+const port=process.env.PORT || 4000
 app.use(express.json())
 app.use(express.urlencoded({extended:true}))
 require("./configure/db")
